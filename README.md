@@ -31,6 +31,14 @@ pip install -r requirements.txt
 uvicorn app_meme:app --host 0.0.0.0 --port 7860
 ```
 
+## Examples
+
+<p align="center">
+  <img src="examples/1.jpeg" width="300" /><br/>
+  <img src="examples/2.jpeg" width="300" /><br/>
+  <img src="examples/3.jpeg" width="300" />
+</p>
+
 ## Model Details
 
 The model is fine-tuned on Phi-4 using LoRA (Low-Rank Adaptation) with the following configurations:
